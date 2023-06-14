@@ -11,7 +11,7 @@ class Main {
 
         System.out.println("Podaj elementy tablicy:");
         for (int i = 0; i < LiczebnośćTablicy; i++) {
-          System.out.print("Element " + (i + 1) + ": ");
+          System.out.print("Element " + (i + 1) + ":");
             liczby[i] = scanner.nextInt();
             suma = suma + liczby[i];
         }
